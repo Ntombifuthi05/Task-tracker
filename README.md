@@ -47,28 +47,28 @@ Built as a portfolio project to demonstrate full-stack JavaScript/TypeScript dev
 ```
 task-tracker/
 │
-├── backend/                        # Express + TypeScript API
+├── backend/                       
 │   ├── src/
 │   │   ├── models/
-│   │   │   └── Task.ts             # Mongoose schema and TypeScript interface
+│   │   │   └── Task.ts             
 │   │   ├── routes/
-│   │   │   └── tasks.ts            # CRUD route handlers (GET, POST, PATCH, DELETE)
-│   │   └── index.ts                # Server entry point, DB connection
-│   ├── .env.example                # Environment variable template
+│   │   │   └── tasks.ts            
+│   │   └── index.ts                
+│   ├── .env.example                
 │   ├── package.json
 │   └── tsconfig.json
 │
-├── frontend/                       # React + TypeScript client
+├── frontend/                       
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── TaskForm.tsx        # Form for creating new tasks
-│   │   │   └── TaskCard.tsx        # Individual task card with status controls
+│   │   │   ├── TaskForm.tsx        
+│   │   │   └── TaskCard.tsx        
 │   │   ├── services/
-│   │   │   └── taskService.ts      # Axios API calls (abstracted from components)
+│   │   │   └── taskService.ts      
 │   │   ├── types/
-│   │   │   └── task.ts             # Shared TypeScript types and interfaces
-│   │   ├── App.tsx                 # Root component, state management
-│   │   └── main.tsx                # React entry point
+│   │   │   └── task.ts             
+│   │   ├── App.tsx                 
+│   │   └── main.tsx                
 │   ├── index.html
 │   ├── package.json
 │   ├── tsconfig.json
